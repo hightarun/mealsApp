@@ -29,7 +29,7 @@ const defaultStackNavOptions = {
     fontFamily: "open-sans",
   },
   headerTintColor: Platform.OS === "android" ? "white" : Colors.primaryColor,
-  headerTitle: " SCREEN",
+  headerTitle: "SCREEN",
 };
 
 const MealsNavigator = createStackNavigator(
